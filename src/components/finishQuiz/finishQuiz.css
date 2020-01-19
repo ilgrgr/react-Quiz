@@ -1,0 +1,21 @@
+.app__finishQuiz {
+    border: 1px solid wheat;
+    border-radius: 6px;
+    box-shadow: 1px 1px 14px 0px #fff;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    color:#fff;
+    box-sizing: border-box;
+    margin-top: 200px;
+
+}
+
+.finishQuiz__button {
+    border: 1px solid white;
+    height: 30px;
+    width: 120px;
+    background: #8487f1;
+    border-radius: 5px;
+    color: #f0f9f8;
+}

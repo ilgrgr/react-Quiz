@@ -1,0 +1,43 @@
+.menu {
+    position: absolute;
+    display: inline-table;
+    height: 100%;
+    width: 25%;
+    background: #06aeefab;
+    padding: 10px;
+    transition: 1s;
+    color: #f8efef;
+    left: 0px;
+    z-index: 9;
+}
+.menu_on {
+    left: 0px;   
+}
+.menu_off {
+    left: -27%;   
+}
+
+
+.menu__ico:hover {
+    box-shadow: 0px 0px 7px 3px #f3eceb;
+    /* border: 1px solid greenyellow; */
+}
+
+.menu__ico {
+    position: absolute;
+    right: -50px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid wheat;
+    border-radius: 50%;
+    z-index: 100;
+
+}
+.backgraund {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(24, 0, 41, 0.589);
+    transition: 2s;
+   
+}

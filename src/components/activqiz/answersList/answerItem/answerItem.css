@@ -1,0 +1,24 @@
+.answersList__answerItem {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    
+
+    
+}
+
+.answersList__answerItem:hover {
+    box-shadow: inset 0 0 9px 1px #e8ecef;
+    transition: .3s;
+}
+
+.answersList__answerItem_error {
+    background: rgba(247, 3, 3, 0.3);
+    transition: .3s;
+}
+
+.answersList__answerItem_success {
+    background: rgba(72, 247, 3, 0.452);
+    transition: .3s;
+}

@@ -1,0 +1,10 @@
+.main {
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    background: #51a4ea59;
+    padding: 20px;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+}
